@@ -46,7 +46,7 @@
 
             // Load butterfly model from a reliable source
             const loader = new THREE.GLTFLoader();
-            loader.load('https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/Butterfly/glTF/Butterfly.gltf', function(gltf) {
+            loader.load('https://modelviewer.dev/shared-assets/models/Butterfly.glb', function(gltf) {
                 butterfly = gltf.scene;
                 butterfly.scale.set(1, 1, 1);
                 scene.add(butterfly);
